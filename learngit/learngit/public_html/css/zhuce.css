@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+form i{ font-size:14px ; color:#F00; font-weight:bold;  }
+form input.zc{ background:#0C0; width:50px; height:40px; border:none} 
+form input.cx{ background:#0C0; width:50px; height:40px; border:none} 
+

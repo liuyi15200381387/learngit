@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*登录页*/
+.top-bg{ background:url(../images/BG.png) #fff0f0; width:100%; height:830px; margin:0 auto}
+
+/*内容*/
+.main{ width:1000px; height:480px; margin:0 auto; margin-top:90px;}
+.main-l img{ float:left; width:318px; height:457px; margin-top:23px; margin-left:50px; position:relative; z-index:3; left:85px}
+.main-r{ width:542px; height:454px; border:1px solid #666; float:right; position:relative; z-index:1; margin-right:20px; background:#FFF; padding-top:25px;}
+
+.main-r1{width:542px; height:454px; border:1px solid #666; float:right; position:relative; z-index:1 ;background:#FFF; padding-top:25px;}
+.main-r p{ height:28px; line-height:28px; color:#808080; width:56px; margin:0 auto; font-size:18px}
+.main-r form{ margin-left:108px; width:328px}
+.main-r form a.a1{ color:#999999; font-size:12px; margin-right:20px}
+
+.main-r form a.a2{ color:#e4393c; font-size:12px; width:100px; height:33px;}
+.main-r form td input.a-1{ width:312px; height:45px; border:1px solid #666; background:url(../images/yhm.jpg) no-repeat; line-height:45px; padding-left:52px}
+.main-r form td input.a-2{ width:312px; height:45px; border:1px solid #666; background:url(../images/mm.jpg) no-repeat; line-height:45px; padding-left:52px}
+.main-r form td input.search{ width:60px; height:33px; margin:10px 0; border:1px solid #666; line-height:33px;}
+.main-r form img { padding: 10px 30px}
+.main-r form td input.b-2{ width:60px; height:33px; margin:10px 0;}
+.main-r form input.login{ background:#e4393c; width:327px; height:45px; display:block; text-align:center; line-height:45px; color:#fae1e1; border:none;cursor:pointer}
+.main-r form p.2{ width:104px}
+.main-r form .partner{ font-size:12px; color:#666666; width:327px; height:45px; line-height:45px}
+.main-r form a.qq{ color:#666666;}
+.main-r form input.regsiter{ font-size:16px; color:#e86062;  height:45px; float:right; border:none; background:#FFF; cursor:pointer}
+ 
+

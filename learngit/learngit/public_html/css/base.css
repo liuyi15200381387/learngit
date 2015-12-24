@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0}
+img{ border:none}
+a{ text-decoration:none}
+li{ list-style:none}
+
+/*导航*/
+.nav{ width:1000px; margin:0 auto; height:100px; position:relative; box-shadow:0 2px 8px #000000;}
+.nav img{ float:left; position:absolute; left:auto}
+.nav-r{ width:906px; height:100px; float:right;; background:#FFF;}
+.nav-r p{ float:left; margin:30px 10px; font-size:18px; font-family:微软雅黑; color:#333333;}
+.nav-r ul li{ float:left; width:128px; height:54px; background:url(../images/sy.png) no-repeat right 0; text-align:center; margin-top:35px}
+.nav-r ul li a{ color:#333333; font-size:12px; line-height:20px; text-align:center; font-size:16px; font-family:微软雅黑; display:block}
+.nav-r ul li a:hover,.nav-r ul li a:hover span{ color:#F00}
+.nav-r ul li a span{ font-size:12px; font-family:宋体; color:#666666;}
+.nav-r ul li.on{ background:#FFF}
+
+/*尾部*/
+.tail1{ width:100%; height:30px; background:#333333; margin:0 auto}
+.tail1 ul{ width:630px; height:30px; margin:0 auto;}
+.tail1 ul li{ float:left; font-size:12px; width:90px; background:url(../images/sy.png) right -160px no-repeat; text-align:center; height:30px; line-height:30px; }
+.tail1 ul li a{ color:#FFF;}
+.tail1 ul li.on2{ background:#333333;}
+
+.tail2{ width:100%; height:100px; margin:0 auto; background:url(../images/hui-bg.png) repeat-x}
+.tail2 h1{ margin:0 auto; width:500px; height:30px;}
+.tail2 h1 img{ margin:0 8px}
+.tail2 h1 span{ font-size:12px; color:#343434; font-weight:normal; height:30px; line-height:25px}
+.tail2 ul{ width:480px; margin:0 auto;}
+.tail2 ul li{ height:60px; float:left; margin:5px 30px 0;}
+.tail2 ul li a{ display:block; width:55px; height:55px}
+.tail2 ul li.microblog a{ background:url(../images/lianjie.png);}
+.tail2 ul li.WeChat a{ background:url(../images/lianjie.png) 0 -212px;}
+.tail2 ul li.iphone a{ background:url(../images/lianjie.png) 0 -437px}
+.tail2 ul li.Android a{ background:url(../images/lianjie.png) 0 -648px}
+.tail2 ul li.microblog a:hover{ background:url(../images/lianjie.png) 0 -104px}
+.tail2 ul li.WeChat a:hover{ background:url(../images/lianjie.png) 0 -326px}
+.tail2 ul li.iphone a:hover{ background:url(../images/lianjie.png) 0 -543px}
+.tail2 ul li.Android a:hover{ background:url(../images/lianjie.png) 0 -745px}
+
+.tail3{ width:100%; height:30px; background:#cccccc; margin:0 auto}
+.tail3 p{ color:#a6a6a6; font-size:12px; width:300px; height:30px; line-height:30px; width:170px; margin:0 auto}
+
+/*轮播图*/
+#banner{ width:1000px; height:448px; margin:0 auto; position:relative;}
+#banner ul li{ position:absolute; left:0; top:0}
+#banner #num{ position:absolute; left:50%; bottom:5px;}
+#banner #num span{ width:13px; height:13px; background:url(../images/banner.png) -13px 0; display:inline-block; cursor:pointer; margin-right:10px}
+#banner #num span.on,#banner #num span:hover{ background:url(../images/banner.png)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
