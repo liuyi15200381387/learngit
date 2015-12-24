@@ -1,0 +1,19 @@
+<h2>Sign up using this form 的</h2>
+
+<?php echo $this->tag->form("up/register"); ?>
+
+ <p>
+    <label for="name">姓名</label>
+    <?php echo $this->tag->textField("name") ?>
+ </p>
+
+ <p>
+    <label for="email">邮箱</label>
+    <?php echo $this->tag->textField("email") ?>
+ </p>
+
+ <p>
+    <?php echo $this->tag->submitButton("登陆") ?>
+ </p>
+
+</form>
